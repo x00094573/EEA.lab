@@ -6,5 +6,5 @@
 #: Version : 1
 #: Description : counting cpu
 #: Options : 
-
+printf "The number of processors is\n" 
 grep processor /proc/cpuinfo | wc -l
