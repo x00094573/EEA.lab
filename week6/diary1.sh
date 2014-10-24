@@ -6,9 +6,7 @@
 #: Description : 
 #: Options : 
 
-
-
 echo "Whats your name ?"
 read input_variable1
 
-echo "$input_variable1, the date is " $(date) >> diary.txt
+printf "%s" $input_variable1 >> diary1.txt
